@@ -1,0 +1,7 @@
+D:\Source\Repos\Projects\Codewars\Codewars-BubbleSort\BubbleSort\BubbleSortApp\bin\Debug\BubbleSortApp.exe.config
+D:\Source\Repos\Projects\Codewars\Codewars-BubbleSort\BubbleSort\BubbleSortApp\bin\Debug\BubbleSortApp.exe
+D:\Source\Repos\Projects\Codewars\Codewars-BubbleSort\BubbleSort\BubbleSortApp\bin\Debug\BubbleSortApp.pdb
+D:\Source\Repos\Projects\Codewars\Codewars-BubbleSort\BubbleSort\BubbleSortApp\obj\Debug\BubbleSortApp.csprojAssemblyReference.cache
+D:\Source\Repos\Projects\Codewars\Codewars-BubbleSort\BubbleSort\BubbleSortApp\obj\Debug\BubbleSortApp.csproj.CoreCompileInputs.cache
+D:\Source\Repos\Projects\Codewars\Codewars-BubbleSort\BubbleSort\BubbleSortApp\obj\Debug\BubbleSortApp.exe
+D:\Source\Repos\Projects\Codewars\Codewars-BubbleSort\BubbleSort\BubbleSortApp\obj\Debug\BubbleSortApp.pdb
