@@ -32,13 +32,15 @@ namespace BubbleSortApp
 
             for (int i = 0; i < numbers.Length - 1; i++)
             {
-                for (int j = 0; j < numbers.Length; j++)
+                for (int j = 0; j < numbers.Length - 1; j++)
                 {
-                    if(numbers[i] < numbers[j])
+                    if(numbers[j] > numbers[j + 1])
                     {
-                        swapValue = numbers[i];
-                        numbers[i] = numbers[j];
-                        numbers[j] = swapValue;
+                        swapValue = numbers[j];
+                        numbers[j] = numbers[j + 1];
+                        numbers[j + 1] = swapValue;
+                        System.Threading.Thread.Sleep(3000);
+                        Console.WriteLine(String.Join(",", numbers));
                     }
                 }
             }
