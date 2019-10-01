@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,22 +30,26 @@ namespace BubbleSortApp
         static int[] BubbleSort(int[] numbers)
         {
             int swapValue = 0;
+            Stopwatch loopStopwatch = new Stopwatch();
+
+            loopStopwatch.Start();
 
             for (int i = 0; i < numbers.Length - 1; i++)
             {
-                for (int j = 0; j < numbers.Length - 1; j++)
+                for (int j = 0; j < numbers.Length - i - 1; j++)
                 {
                     if(numbers[j] > numbers[j + 1])
                     {
                         swapValue = numbers[j];
                         numbers[j] = numbers[j + 1];
                         numbers[j + 1] = swapValue;
-                        System.Threading.Thread.Sleep(3000);
-                        Console.WriteLine(String.Join(",", numbers));
                     }
                 }
             }
-            
+            loopStopwatch.Stop();
+            TimeSpan timeSpan = loopStopwatch.Elapsed;
+            Console.WriteLine($"totalTime: {timeSpan.Milliseconds.ToString()}");
+
             return numbers;
         }
     }
